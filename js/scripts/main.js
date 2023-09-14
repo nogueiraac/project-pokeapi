@@ -94,8 +94,6 @@ function listingPokemons(urlApi) {
       }).then(response => {
         const { name, id, sprites, types } = response.data;
 
-        console.log(types[0].type.name);
-
         const infoCard = {
           name,
           code: id,
@@ -138,7 +136,6 @@ axios({
 
   results.forEach((type, index) => {
     if (type.name !== 'unknown' && type.name !== 'shadow') {
-      console.log(type.name);
       let itemType = document.createElement('li');
       areaTypes.appendChild(itemType);
 
