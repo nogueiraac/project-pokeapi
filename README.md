@@ -1,8 +1,10 @@
-# PokeAPI Project 
+# Projeto PokeApi
 
 ![PokeAPI Project Logo](./img/cover.png)
 
 Bem-vindo ao PokeAPI Project! Este é um projeto que utiliza HTML, SASS, Gulp e Axios para criar uma aplicação web que consome a PokeAPI, permitindo aos usuários explorar informações sobre Pokémons de forma divertida.
+
+**Link para o projeto em produção**: [PokeApi](https://nogueiraac.github.io/project-pokeapi/)
 
 ![PokeAPI Project Screenshot](./img/pokeapi.png)
 
